@@ -4,6 +4,27 @@ This repository contains fundamental HTML files for learning or refreshing your 
 
 ## Getting Started
 
-Clone this repository:
+Feel free to clone this repository:
 
+```bash
 git clone https://github.com/dhanesh76/HTML.git
+```
+
+## Sources
+
+This repository was created with reference to the following sources:
+- [BrO CODE](https://www.brocode.org/)
+- [freeCodeCamp](https://www.freecodecamp.org/)
+- [W3Schools](https://www.w3schools.com/)
+
+## Contributing
+
+Feel free to contribute! Fork this repository, make changes, and submit a pull request.
+
+## License
+
+This repository is under the MIT License.
+
+## Acknowledgements
+
+Created by [Dhanesh Patel].
