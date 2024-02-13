@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>forms</title>
+    <link rel="icon" href="pictures/Black.jpg">
+
+</head>
+
+<body style="background-color:powderblue;font-size:large;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+	<h1 align="center" style="color:green;">User Registration </h1>
+
+	<FIeldset>
+		<legend style="font-weight: 200;">Personal Info</legend>
+
+		<form align="center" color="#122">
+
+			<div>
+				<label for="name">FirstName :</label>
+				<input type="text" id="name" required placeholder="Enter your first name" autofocus autocomplete="additional-name">
+			</div>
+			<br>
+
+			<div>
+				<label for="lname">LastName :</label>
+
+				<input type="text" id="lname" required placeholder="Enter your second name">
+			</div>
+			<br>
+
+			<div>
+				<label for="dob">DOB :</label>
+				<input type="date" id="dob" required>
+			</div>
+			<br>
+
+			<div>
+				<label for="mail">email :</label>
+				<input type="email" id="mail" required placeholder="sample@gmail.com">
+			</div>
+			<br>
+
+			<div>
+				<label for="pass">Password :</label>
+				<input type="Password" id="pass" required maxlength="8">
+			</div>
+			<br>
+
+			<div>
+				<label for="tele">Mobile :</label>
+				<input type="tel" id="tele" required placeholder="(+91) 1234986895" pattern [0-9]{3}[0-9]{3}[0-9]{3}>
+			</div>
+			<br>
+
+			<div>
+				<label>Gender:</label>
+
+				<label for="M">Male</label>
+				<input name="Gender" type="radio" id="M">
+
+				<label for="f">Female</label>
+				<input name="Gender" type="radio" id="f">
+
+				<label for="o">others</label>
+				<input name="Gender" type="radio" id="o">
+			</div>
+			<br>
+
+			<div>
+				<label for="pay">Payment:</label>
+				<select id="pay" name="pays">
+					<option value="pays">Mastercard</option>
+					<option value="pays" SELECTED>Rupay</option>
+					<option value="pays">Visa</option>
+				</select>
+			</div>
+			<br>
+
+
+			<div>
+				<input type="submit">
+				<input type="reset">
+			</div>
+		</form>
+	</FIeldset>
+</body>
+</html>
