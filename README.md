@@ -13,7 +13,7 @@ git clone https://github.com/dhanesh76/HTML.git
 ## Sources
 
 This repository was created with reference to the following sources:
-- [BrO CODE](https://www.brocode.org/)
+- [Bro code](https://www.youtube.com/@BroCodez)
 - [freeCodeCamp](https://www.freecodecamp.org/)
 - [W3Schools](https://www.w3schools.com/)
 
