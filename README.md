@@ -6,4 +6,4 @@ This repository contains fundamental HTML files for learning or refreshing your 
 
 Clone this repository:
 
-git clone https://github.com/dhanesh/HTML.git
+git clone https://github.com/dhanesh76/HTML.git
