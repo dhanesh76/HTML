@@ -1,17 +1,91 @@
 <!DOCTYPE html>
 <!--
-    <a href="url">link text</a>
-    
-    The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
-    The link text is the part that will be visible to the reader.
-    Clicking on the link text, will send the reader to the specified URL address.
+    In HTML, links are essential for navigation and resource access.
+    Here, we'll describe the different types of links available.
 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>Website</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-<body>
-    <a href="https://www.google.com" target="_self " title="This takes you to the google ">
-        google
-    </a>
+
+<body bgcolor="gray">
+
+    <!-- Navigation links -->
+    <nav>
+        <ul>
+            <!-- Anchor link to 'WHO' section -->
+            <li>
+                <a href="#who">WHO</a> <!-- Clicking on this link will take you to the WHO section below. -->
+            </li>
+            <!-- Anchor link to 'ASCII' section -->
+            <li>
+                <a href="#ascii">ASCII</a> <!-- Clicking on this link will take you to the ASCII section below. -->
+            </li>
+        </ul>
+    </nav>
+    
+    <hr>
+    <!-- Some Lorem Ipsum text for filler content -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus dolore quam sapiente praesentium ducimus cupiditate dolorum iusto suscipit! Dolore magni minima dolorem inventore ipsum culpa, voluptate sapiente quasi mollitia...
+    
+    <!-- Separator -->
+    <hr>
+    
+    <!-- WHO Section -->
+    <section id="who">
+        <H1><abbr title="World Health Organization">WHO</abbr></H1>
+        <p>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nobis quas accusamus praesentium quis quasi dolores atque? Ad, optio voluptatem qui suscipit quam aliquam praesentium harum, atque, velit consequuntur nesciunt!</p>
+    </section>
+    <hr>
+
+    <!-- ASCII Section -->
+    <section id="ascii">
+        <H1><abbr title="AMERICAN STANDARD CODE FOR INFORMATION INTERCHANGE">ASCII</abbr></H1>
+        <p>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nobis quas accusamus praesentium quis quasi dolores atque? Ad, optio voluptatem qui suscipit quam aliquam praesentium harum, atque, velit consequuntur nesciunt!</p>
+    </section>
+    <hr>
+    
+    <!-- UNO Section -->
+    <section>
+        <H1><abbr title="UNITED NATIONS OF ORGANIZATION">UNO</abbr></H1>
+        <p>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nobis quas accusamus praesentium quis quasi dolores atque? Ad, optio voluptatem qui suscipit quam aliquam praesentium harum, atque, velit consequuntur nesciunt!</p>
+    </section>
+    <hr>
+    
+    <!-- Contact and Resource Links -->
+    <ul>
+        <!-- Telephone link -->
+        <li>
+            Contact:<a href="tel:+1234127890">+1234-127890</a> <!-- Clicking on this link will prompt to call the specified number. -->
+        </li>
+        <!-- Email link -->
+        <li>
+            Mail<a href="mailto:random@gmail.com">random@gmail.com</a> <!-- Clicking on this link will open the default email client to compose an email to the specified email address. -->
+        </li>
+        <!-- Download link -->
+        <li>
+            Download:<a href="pictures/root.png" download>Image of Root</a> <!-- Clicking on this link will download the image file named "root.png". -->
+        </li>
+        <!-- Home link -->
+        <li>
+            <a href="/">Go to the Home</a> <!-- Clicking on this link will take you to the homepage. -->
+        </li>            
+    </ul>
+    
+    <!-- Copyright notice -->
+    << &copy;<a href="https://www.who.int/">WHO</a> >> 
+    
+    <!-- Back to top link -->
+    <p>
+        <a href="#">Back to top</a> <!-- Clicking on this link will take you to the top of the page. -->
+    </p>
+    
 </body>
+
 </html>
